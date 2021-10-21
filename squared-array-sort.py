@@ -1,9 +1,4 @@
 def sortedSquares(nums):
-    """
-    :type nums: List[int]
-    :rtype: List[int]
-    """
-    squared_arr = []
     def merge_2_arr(arr1, arr2):
         result = [None]*(len(arr1)+len(arr2))
         arr1_ptr = 0
